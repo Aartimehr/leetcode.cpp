@@ -1,8 +1,7 @@
 class Solution {
 public:
     int pivotIndex(vector<int>& nums) {
-        if(nums.size()==0)
-        return -1;
+      
         int sum=0;
         int lsum=0;
         for(int i : nums)
@@ -21,3 +20,4 @@ public:
         
         return -1;
     }
+};
